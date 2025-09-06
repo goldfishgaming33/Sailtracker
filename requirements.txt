@@ -1,0 +1,11 @@
+adafruit-blinka~=8.54.0
+adafruit-circuitpython-icm20x~=2.1.6
+pandas~=2.2.3
+gpiozero~=2.0.1
+python-dotenv~=1.0.1
+RPi.GPIO~=0.7.1
+spidev>=3.6
+smbus~=1.1.post2
+continuous-threading~=2.0.6
+pyserial~=3.5
+pynmea2~=1.19.0

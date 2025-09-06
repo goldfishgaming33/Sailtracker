@@ -1,0 +1,12 @@
+flash the SD card with home wifi network and username rpi
+log on ubantu vm
+cd ~/CansatAnsible/CansatAnsible
+run ansible-playbook -i hosts playbook.yaml
+add necessary networks to wpa_suppliant.conf
+switch to zsh
+connect to pi network
+cd ~/Sailtracker
+run zsh codepush.sh
+for first time run /usr/bin/python3 -m venv --system-site-packages .venv
+then source .venv/bin/activate
+run uv pip install -r requirements.txt
